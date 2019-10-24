@@ -1,3 +1,9 @@
-arch: arm64
+arch: amd64
 language: generic
-script: "echo 10; /bin/ls"
+dist: xenial
+script: 
+  - "echo ------------"
+  - "cat /etc/init.d/neo4j"
+  - "echo ------------"
+  - "cat /usr/local/neo4j/conf/neo4j.conf"
+
