@@ -3,7 +3,7 @@ language: generic
 dist: xenial
 script: 
   - "echo ------------"
-  - "cat /etc/init.d/neo4j"
+  - "dpkg -l"
   - "echo ------------"
   - "cat /usr/local/neo4j/conf/neo4j.conf"
 
