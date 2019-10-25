@@ -2,8 +2,5 @@ arch: amd64
 language: generic
 dist: xenial
 script: 
-  - "echo ------------"
-  - "dpkg -l"
-  - "echo ------------"
-  - "cat /usr/local/neo4j/conf/neo4j.conf"
+  - "while [ 1 ]; do echo "."; sleep 5m; done"
 
