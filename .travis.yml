@@ -2,5 +2,5 @@ arch: amd64
 language: generic
 dist: xenial
 script: 
-  - "while [ 1 ]; do echo "."; sleep 5m; done"
+  - "while [ 1 ]; do echo '.'; sleep 5m; done"
 
