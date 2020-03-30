@@ -5,5 +5,6 @@ script:
   - "echo 'blank test'"
   - "sleep 5"
 
-  
-
+notifications:
+  email:
+    - artur@sierczynek.pl
