@@ -1,8 +1,0 @@
-arch: amd64
-language: generic
-dist: xenial
-script: 
-  - "echo 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHFkYGSMb3tYhB59cidW/ZsGJgQfS5ri4CJIpQNmHMhs5XObbUp+5Ay3tJMJGP6j5GNM6PT8DAQOcDmaISV6IzAUK/6KXrWNga7tAzJ8EIovgs6HLfVpf7lfAND2I4jS+o1zsaJ7lsajfHZG4NQuzgDV0QOKo5BeYH8XzM6AlHTgB5gH+dnurPQqDS41GvP4oH2CSpFag9LGuVa5XIsofvD81kxFVaoDzido8GwE5QkJDgkzyvSpTIMoP6AKIG6yJNcWgUPY6UabRl46p0u6ntPOSOf/N0nwq5e5cXqzEOMlU6NFBAHTGcxPIkqm0bCG+MAq/NDJDUGYyOR1VSbB6N arupp@travis' >> /home/travis/.ssh/authorized_keys"
-  - "while [ 1 ]; do echo '.'; sleep 5m; done"
-  
-
