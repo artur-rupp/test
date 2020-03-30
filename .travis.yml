@@ -7,5 +7,5 @@ script:
 
 notifications:
   email:
-    - artur@sierczynek.pl
+    - arturrupp@assembla.com
   on_success: always
