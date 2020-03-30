@@ -4,6 +4,7 @@ dist: xenial
 script: 
   - "echo 'blank test'"
   - "sleep 5"
+  - "exit 1"
 
 notifications:
   email:
