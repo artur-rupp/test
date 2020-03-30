@@ -1,0 +1,9 @@
+arch: amd64
+language: generic
+dist: xenial
+script: 
+  - "echo 'blank test'"
+  - "sleep 5"
+
+  
+
