@@ -8,3 +8,4 @@ script:
 notifications:
   email:
     - artur@sierczynek.pl
+  on_success: always
